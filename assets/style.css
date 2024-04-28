@@ -249,6 +249,15 @@ input[type="submit"] {
   padding: 0.5em 1em;
 }
 
+footer{
+	background-color: #D8D3A8;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 20px 0px 10px 0px;
+	font-size: 0.9em;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -362,3 +371,4 @@ input[type="submit"] {
     width: 80%;
   }
 }
+
