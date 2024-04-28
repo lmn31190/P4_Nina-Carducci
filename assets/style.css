@@ -101,7 +101,7 @@ nav a {
 	text-align: center;
 	padding-block: 2em;
 }
-.gallery .nav {
+.gallery ul {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link.active-tag{
@@ -151,13 +151,13 @@ blockquote {
 	padding-block: 3em;
 }
 blockquote h1{
-	font-family: Spectral;
+	font-family: "Spectral";
 	font-style: italic;
 	font-weight: 300;
 
 }
 blockquote cite{
-	font-family: Spectral;
+	font-family: "Spectral";
 	font-weight: 800;
 	font-size: 22px;
 }
@@ -208,6 +208,7 @@ blockquote cite{
 #contact .container {
 	display: flex;
 }
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -220,7 +221,6 @@ blockquote cite{
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -331,11 +331,11 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	.top-header nav, .top-header nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	.top-header nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
